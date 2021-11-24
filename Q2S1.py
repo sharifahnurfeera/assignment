@@ -45,3 +45,18 @@ accountTuple = tuple(list)
 
 for x in accountTuple:
   print(x)
+
+
+"""
+Explanation/ thought process
+
+When to use a Tuple:
+— When you know you will not modify or change after creation.
+— Your content is sorted or has a structure for retrieval.
+When to use a Dictionary:
+— When your data does’t have a structure and quick retrieval is the primary concern.
+— Space complexity is not a concern.
+When to use a List:
+— When you are unsure whether your data structure will grow.
+— Best choice to use when experimenting ( great size / retrieval speed trade-off).
+"""
